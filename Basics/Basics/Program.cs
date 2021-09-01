@@ -12,8 +12,6 @@ namespace Basics
             double[] test4 = new double[] { 3.1d, 4.1d, 5.1d, 6.1d };
             bool[] test5 = new bool[] { false, true };
 
-            System.Int64 bigInt = 10000000000000000000;
-
             Loop(test);
             Loop(test2);
             Loop(test3);
@@ -23,6 +21,8 @@ namespace Basics
             Console.ReadKey();
             var d = Console.ReadLine();
             System.Console.WriteLine(d);
+            System.Console.ReadLine();
+            System.Console.ReadLine();
         }
 
         /// <summary>
