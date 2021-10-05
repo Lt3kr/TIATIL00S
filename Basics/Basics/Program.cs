@@ -6,7 +6,9 @@ namespace Basics
     {
         static void Main(string[] args)
         {
-            askForText();
+            var a = new findPair().run();
+            System.Console.WriteLine(a);
+            // askForText();
         }
 
         static int lengthOfString(string text)
