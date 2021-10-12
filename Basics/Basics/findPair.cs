@@ -8,7 +8,7 @@ namespace Basics
         public int? run()
         {
             // We store our data.
-            int[] numbersToCheck = new int[] { 1, 2, 3, 4, 5 };
+            int[] numbersToCheck = new int[] { 1, 2, 3, 4, 5, 1 };
             // Check the length
             int lengthOfNumbers = numbersToCheck.Length;
             // We create our "hashmap".
