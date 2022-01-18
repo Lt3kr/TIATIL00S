@@ -16,6 +16,7 @@ namespace Basics
             // Should be 4
             Uppgift03(10, new int[] { 1, 2, 5, 20, 10, 3 });
             Uppgift04(new int[] { 1, 2, 5, 20, 10, 3 });
+            // (2,2,2 = 2, 1,1 = 1) => 3
             Uppgift05(new int[] { 2,2,2,1,5,4,3,6,1 });
             // askForText();
         }
