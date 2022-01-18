@@ -2,7 +2,7 @@ using System;
 
 namespace Zoo
 {
-    class ZooKeepers{
+    class ZooKeepers : Employee{
 
         bool AnimalIsHungry = false;
         bool feed = false;
